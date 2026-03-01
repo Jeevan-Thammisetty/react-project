@@ -1,0 +1,64 @@
+.prosec {
+  display: inline-block;
+  height: 400px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #bebebe;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+.pro-name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.prosec:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.price{
+    font-weight: bolder;
+    color: blue;
+}
+.description{
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.cart-btn {
+  background-color: #ff9900;
+  color: #000;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.cart-btn:hover {
+  background-color: #e68a00;
+}
+.proimg img {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 200px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+body {
+  background-color: #f8f9fa;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
